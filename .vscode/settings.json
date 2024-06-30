@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8fee4218-65b0-4fef-9361-7c2508aa04fc/resourceGroups/eai-fsh-wus2-CloudLensStudio-rg/providers/Microsoft.Web/sites/eai-fsh-wus2-CloudLensStudio",
+    "appService.deploySubpath": "javascript/examples/grapheditor"
+}
