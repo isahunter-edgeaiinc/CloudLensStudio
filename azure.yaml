@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: CloudLensStudio
+metadata:
+    template: azd-init@1.9.4
+services:
+    CloudLensStudio:
+        project: .
+        host: containerapp
+        language: js
+    javascript:
+        project: javascript
+        host: containerapp
+        language: js
